@@ -1,0 +1,261 @@
+.bottom_section_pd {
+  padding: 0px 0px 40px 0px;
+}
+
+.top_section_pd {
+  padding: 40px 0px 0px 0px;
+}
+
+.all_section_padding {
+  padding: 40px 0px 40px 0px;
+}
+
+.amatic-sc-regular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amatic-sc-bold {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body h2 {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.options h4 {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+}
+.nav_bar ul {
+  gap: 20px;
+}
+
+nav .nav_bar {
+  padding-left: 35px;
+  padding-right: 65px;
+}
+
+.callus_btn i {
+  padding: 15px 15px 15px 15px;
+  border-radius: 60%;
+  background-color: rgb(222, 222, 98);
+  color: #000;
+  font-size: 25px;
+}
+
+.callus_btn :hover {
+  border-radius: 60%;
+  padding: 15px 15px 15px 15px;
+  background-color: rgb(78, 142, 0);
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.elements {
+  padding: 12px 10px 12px 10px;
+}
+
+.industries_bg {
+  background-image: url(/assets/images/page-header-bg.webp);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  height: 300px;
+  padding: 100px 0px 0px 0px;
+}
+
+.industries_bg::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  background-color: rgba(53, 62, 50, 0.8);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  height: 300px;
+}
+
+.sec1 {
+  z-index: 10;
+  position: relative;
+}
+
+.sec1 ul li a {
+  padding: 5px;
+  color: rgb(222, 222, 98);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.sec1 ul li {
+  color: rgb(222, 222, 98);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.sec1 ul {
+  list-style: none;
+}
+
+.sec1 h2 {
+  color: #ffffff;
+}
+
+.news_img {
+  position: relative;
+}
+
+.dec20 {
+  position: absolute;
+  padding: 6px 25px 6px 25px;
+  background-color: yellow;
+  color: #000;
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 600;
+  bottom: 0px;
+  left: 30px;
+}
+
+.options_sec2 .time_icon i {
+  color: rgb(78, 142, 0);
+}
+
+.options_sec2 h4 {
+  padding-bottom: 15px;
+}
+
+.readmore_arrow i {
+  color: rgb(78, 142, 0);
+  padding: 0px 5px 0px 0px;
+}
+
+.readmore_arrow {
+  font-weight: 500;
+}
+
+.news_block:hover {
+  .readmore_arrow,
+  h4 {
+    color: rgb(78, 142, 0);
+  }
+
+  .readmore_arrow i {
+    color: rgb(222, 222, 98);
+  }
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(78, 142, 0);
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+}
+
+.hover-underline-animation.center::after {
+  transform-origin: bottom center;
+}
+
+.hover-underline-animation.center:hover::after {
+  transform-origin: bottom center;
+}
+
+@media screen and (max-width: 580px) {
+  .last .footer_start_one {
+    display: block;
+    text-align: start;
+    padding-bottom: 10px;
+  }
+
+  .footer_start_two p {
+    text-align: start;
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+.last {
+  background-color: #404a3d;
+}
+
+.last .last_one {
+  border-bottom: 1px solid #878986;
+}
+
+.last .last_one .footer_start_one {
+  /* text-align: end; */
+  color: white;
+}
+
+.last .last_one .footer_start_one img {
+  width: 200px;
+  height: 50px;
+}
+
+.last .last_one .footer_start_two {
+  text-align: end;
+  color: white;
+}
+
+.last .last_one .footer_start_two p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.last .last_one .footer_start_three {
+  text-align: center;
+  color: white;
+}
+
+.last .last_one .footer_start_three span i {
+  font-size: 28px;
+}
+
+.last .footer_list .footer_list_one ul li {
+  display: flex;
+  color: #a5b9ad;
+  gap: 5px;
+}
+
+.last .footer_list .footer_list_one ul li span i {
+  color: yellow;
+}
+
+.last .foot_end {
+  display: flex;
+  gap: 7px;
+  color: white;
+}
+
+.white_text_one {
+  color: #a5b9ad;
+}
